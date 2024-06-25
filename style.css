@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'popins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("ASSESTS/IMAGES/bg.jpg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1300px, 100vw);
+    height: 100vh;
+    position: relative;
+
+}
+
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.66;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+nav span img {
+    margin-top: 15px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+nav img {
+    position: relative;
+    color: red;
+    z-index: 30;
+
+}
+
+.hero {
+    height: calc(100% - 62px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    z-index: 10;
+    font-size: 20px;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+    text-align: center;
+}
+
+.main input {
+    background-color: rgba(194, 190, 190, 0.2);
+    height: 33px;
+    padding: 5px;
+    width: 264px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+
+.seperation {
+    background-color: rgb(69, 68, 68);
+    height: 7px;
+}
+
+.btn {
+    padding: 5px 25px;
+    font-weight: bolder;
+    background-color: rgba(194, 190, 190, 0.2);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 30px;
+    font-size: 17px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.first {
+    display: flex;
+    max-width: 70vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+}
+
+.secimg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video {
+    position: absolute;
+    top: 925px;
+    right: 285px;
+    width: 22vw;
+}
+
+.fist>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.first div> :first-child {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first div> :nth-child(2) {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.sepration2 {
+    background-color: gray;
+    height: 7px;
+}
+
+.second {
+    display: flex;
+    max-width: 70vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+}
+
+.second>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.second div> :first-child {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.second div> :nth-child(2) {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.secimg2 img {
+    width: 30vw;
+}
+
+.seprration3 {
+    background-color: gray;
+    height: 7px;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    height: 80vh;
+    margin: auto;
+    color: white;
+}
+
+.third div> :first-child {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.third div> :nth-child(2) {
+    font-size: 24px;
+}
+
+.secimg3 img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg3 video {
+    position: absolute;
+    top: 2060px;
+    right: 310px;
+    width: 19vw;
+}
+
+.serpration4 {
+    background-color: gray;
+    height: 7px;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.fourth>div:first-child {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.fourth>div:nth-child(2) {
+    font-size: 24px;
+}
+
+.secimg4 {
+    width: 40vw;
+}
+
+.sepration5 {
+    background-color: gray;
+    height: 7px;
+}
+
+.fiq {
+    background: black;
+    color: white;
+    padding: 34px;
+
+}
+
+h2 {
+    font-size: 48px;
+    padding: 34px;
+    text-align: center;
+}
+
+.faqbox {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    background-color: gray;
+    color: white;
+    max-width: 70vw;
+    margin: 34px auto;
+    padding: 20px;
+}
+
+.faqbox svg {
+    cursor: pointer;
+    filter: invert(1);
+
+}
+
+.faqbox:hover {
+    background-color: #414141;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    align-items: center;
+    margin-top: 15px;
+    z-index: 10;
+}
+
+.button button {
+    border-radius: 7px;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.sepration6 {
+    background-color: rgb(75, 74, 74);
+    height: 7px;
+}
+
+footer {
+    max-width: 60vw;
+    padding: 15px;
+    color: white;
+    margin: auto;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-item a {
+    color: white;
+    padding: 15px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    color: white;
+    background: none;
+    border: 2px solid white;
+    padding: 7px;
+    z-index: 10;
+
+}
